@@ -1,0 +1,123 @@
+.numpad {
+  padding: 1.5rem;
+  width: 40%;
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 8px;
+}
+
+.white {
+  background-color: hsl(0, 5%, 81%);
+}
+.fancy {
+  background-color: hsl(268, 71%, 12%);
+}
+.white .key {
+  background-color: hsl(45, 7%, 89%);
+  box-shadow: 0 3px 0 0 hsl(35, 11%, 61%);
+}
+
+.white .blue-key {
+  background-color: hsl(185, 42%, 37%);
+  box-shadow: 0 3px 0 0 hsl(185, 58%, 25%);
+}
+.white .blue-key:hover {
+  background-color: hsl(185, 31%, 54%);
+}
+.white .equal {
+  background-color: hsl(25, 98%, 40%);
+  box-shadow: 0 3px 0 0 hsl(25, 99%, 27%);
+}
+.white .equal:hover {
+  background-color: hsl(25, 67%, 60%);
+}
+.fancy .key {
+  color: hsl(52, 100%, 62%);
+
+  background-color: hsl(268, 47%, 21%);
+  box-shadow: 0 3px 0 0 hsl(285, 91%, 52%);
+}
+.fancy .key:hover {
+  background-color: hsl(267, 41%, 39%);
+}
+
+.fancy .blue-key {
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 0 3px 0 0 hsl(290, 70%, 36%);
+}
+.fancy .blue-key:hover {
+  background-color: hsl(281, 72%, 37%);
+}
+.fancy .equal {
+  color: hsl(198, 20%, 13%);
+  background-color: hsl(176, 100%, 44%);
+  box-shadow: 0 3px 0 0 hsl(177, 92%, 70%);
+}
+.fancy .equal:hover {
+  background-color: hsl(176, 73%, 72%);
+}
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+.buttons {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.buttons button {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  font-size: 32px;
+  border-radius: 8px;
+}
+.blue-key {
+  border: none;
+  cursor: pointer;
+  background-color: hsl(225, 21%, 49%);
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  font-weight: 700;
+  font-size: 32px;
+  border-radius: 8px;
+  box-shadow: 0 3px 0 0 hsl(224, 28%, 35%);
+}
+.blue-key:hover {
+  background-color: hsl(224, 19%, 73%);
+}
+.key {
+  border: none;
+  cursor: pointer;
+  background-color: hsl(30, 25%, 89%);
+  color: hsl(222, 13%, 31%);
+  padding: 0.3rem 0.6rem;
+  font-weight: 700;
+  font-size: 32px;
+  border-radius: 8px;
+  box-shadow: 0 3px 0 0 hsl(28, 16%, 65%);
+}
+.key:hover {
+  background-color: hsl(0, 0%, 100%);
+}
+.equal {
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: 0 3px 0 0 hsl(6, 70%, 34%);
+}
+.equal:hover {
+  background-color: hsl(6, 69%, 64%);
+}
+@media (max-width: 425px) {
+  .numpad {
+    width: 90%;
+    padding: 0.5rem;
+  }
+  .buttons {
+    gap: 1rem;
+  }
+  .numbers {
+    gap: 1rem;
+  }
+}

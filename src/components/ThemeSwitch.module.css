@@ -1,0 +1,80 @@
+.switcher {
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 40%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+@media (max-width: 425px) {
+  .switcher {
+    width: 90%;
+  }
+}
+.switches {
+  width: 52px;
+  position: absolute;
+  top: -14px;
+  right: 4px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.switcher form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.switcher form div {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.5rem;
+}
+
+/* .switch {
+  overflow: hidden;
+  width: 4rem;
+  background-color: hsl(6, 63%, 50%);
+  cursor: pointer;
+} */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="range"] {
+    padding: 0.3rem;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 60px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background-color: hsl(223, 31%, 20%);
+  }
+  .white input[type="range"] {
+    background-color: hsl(0, 5%, 81%);
+  }
+  .white input[type="range"]::-webkit-slider-thumb {
+    background: hsl(25, 98%, 40%);
+  }
+
+  .fancy input[type="range"] {
+    background-color: hsl(268, 71%, 12%);
+  }
+  .fancy input[type="range"]::-webkit-slider-thumb {
+    background: hsl(176, 100%, 44%);
+  }
+  .fancy input[type="range"]::-webkit-slider-thumb:hover {
+    background: hsl(176, 73%, 72%);
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    width: 15px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    height: 15px;
+    cursor: pointer;
+    background: hsl(6, 63%, 50%);
+  }
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: hsl(6, 69%, 64%);
+  }
+}

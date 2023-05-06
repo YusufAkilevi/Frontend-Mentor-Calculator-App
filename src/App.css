@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  /* font-family: League Spartan, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: hsl(222, 26%, 31%); */
+  max-width: 100%;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: League Spartan, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: hsl(222, 26%, 31%);
+  max-width: 100%;
+}
+
+.white {
+  background-color: hsl(0, 0%, 90%);
+  color: hsl(60, 10%, 19%);
+}
+.fancy {
+  background-color: hsl(268, 75%, 9%);
+  color: hsl(52, 100%, 62%);
+}
