@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/YusufAkilevi/Frontend-Mentor-Calculator-App](https://github.com/YusufAkilevi/Frontend-Mentor-Calculator-App)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://calculator-app-yakilevs.netlify.app/](https://calculator-app-yakilevs.netlify.app/)
 
 ## My process
 
